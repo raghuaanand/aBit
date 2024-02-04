@@ -1,5 +1,6 @@
 import React from 'react';
 import 'typeface-raleway';
+import { profileImg } from '../assets/index.js';
 import { IoWallet } from "react-icons/io5";
 import { IoNotifications } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
@@ -20,7 +21,7 @@ const Navbar = () => {
 
         <IoNotifications className='text-gray-500 opacity-[32%] w-[36px] h-[28px] '/>
 
-        <img src='src/assets/profile_image.jpg' alt='profile picture' className='w-[31px] h-[32px] rounded-full border-black border-[1px] '/>
+        <img src={profileImg} alt='profile picture' className='w-[31px] h-[32px] rounded-full border-black border-[1px] '/>
 
         <IoIosArrowDown className='text-gray-500 h-[24px] w-[24px] opacity-[40%]'/>
       </div>
