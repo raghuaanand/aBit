@@ -1,6 +1,6 @@
 import React from 'react';
 import 'typeface-raleway';
-import { profileImg } from '../assets';
+import { profileImg } from '../assets/index.js';
 import { IoWallet } from "react-icons/io5";
 import { IoNotifications } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
