@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Navbar} from './components/index';
+import {DashboardStatus, Header, Navbar, NewRelease, Profile} from './components/index';
 
 function App() {
 
@@ -7,6 +7,9 @@ function App() {
     <>
       <Navbar />
       <Header />
+      {/* <Profile /> */}
+      <NewRelease />
+      <DashboardStatus />
     </>
   )
 }
