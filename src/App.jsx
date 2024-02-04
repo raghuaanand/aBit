@@ -8,8 +8,10 @@ function App() {
       <Navbar />
       <Header />
       {/* <Profile /> */}
-      <NewRelease />
       <DashboardStatus />
+      <div>
+       <NewRelease />
+      </div>
     </>
   )
 }
