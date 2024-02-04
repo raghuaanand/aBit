@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Raleway', 'Inter', 'sans-serif'],
+        'handwriting' : ['"Gloria Hallelujah"', 'cursive'],
       }
     },
   },
