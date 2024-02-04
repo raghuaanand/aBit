@@ -1,5 +1,5 @@
 import React from "react";
-import {DashboardStatus, Header, Navbar, NewRelease, Profile} from './components/index';
+import {DashboardStatus, Header, Navbar, NewRelease, Profile, Released} from './components/index';
 
 function App() {
 
@@ -9,8 +9,9 @@ function App() {
       <Header />
       {/* <Profile /> */}
       <DashboardStatus />
-      <div>
+      <div className="flex items-center gap-16">
        <NewRelease />
+       <Released />
       </div>
     </>
   )
