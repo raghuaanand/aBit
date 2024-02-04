@@ -13,9 +13,9 @@ const DashboardStatus = () => {
                 <p className='font-handwriting font-normal text-[#565656] text-[16px]'>Videos that you upload in collaboration with aBit appear here.</p>
             </div>
 
-            <div className='flex gap-6'>
+            <div className='flex gap-20'>
                 {dashboardStats.map((props, id) => (
-                    <div key={props.id} className='border-l-[1px] border-gray-400 pl-10'>
+                    <div key={props.id} className='border-l-[1px] border-gray-400 pl-6 flex-row space-y-1'>
                         <p className='font-bold text-[16px] '>{props.number} </p>
                         <p className='font-normal text-[14px] text-[#696969]'>{props.paraOne} </p>
                         <p className='font-normal text-[14px] text-[#696969]'>{props.paraTwo} </p>
