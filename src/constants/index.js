@@ -24,3 +24,13 @@ export const dashboardStats = [
         paraTwo: "Earnings"
     },
 ];
+
+
+export const releasedStat = [
+    {
+        id: 1,
+        shares:317,
+        offered:'75%',
+        raised:'$9510'
+    }
+]
